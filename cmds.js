@@ -161,9 +161,8 @@ exports.showCmd = (rl, id)=>{
 };
 
 exports.creditsCmd = rl =>{
-    log('Autores de la practica:');
-    log('Cristina Rodriguez Beltran');
-    log('Ivan Martinez Ariza');
+    log('Autor de la practica:');
+    log('Andrés Delgado Gómez');
     rl.prompt();
 };
 exports.quitCmd = rl =>{
