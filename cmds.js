@@ -161,8 +161,8 @@ exports.showCmd = (rl, id)=>{
 };
 
 exports.creditsCmd = rl =>{
-    log('Autor de la practica:');
-    log('Andrés Delgado Gómez');
+    log('Autores de la practica:');
+    log('Andres Delgado Gómez','green');
     rl.prompt();
 };
 exports.quitCmd = rl =>{
